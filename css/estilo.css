@@ -14,7 +14,7 @@ body .contenedor{
 }
 /* ---------------- H E A D E R ----------------  */
 header .contenedor .contenedor-header{
-  background-image: url("../img/montaña.jpg");
+  background-image: url("../img/banner.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
