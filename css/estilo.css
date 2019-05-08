@@ -4,7 +4,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 body{
-  background-color: white;
+  background-color: black;
+}
+section, .main .contenedor{
+  background-color: black;
 }
 body .contenedor{
   width:80%;
@@ -83,7 +86,7 @@ header .contenedor .contenedor-header .contenedor-banner .texto .titulo{
 }
 .main .contenedor .contenedor-descripcion{
   width: 100%;
-  background-color: #21212D;
+  background-color: #244374;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -230,7 +233,7 @@ footer .contenedor .contenedor-informacion{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #141516;
+  background-color: black;
   padding: 30px 20px 10px 20px;
 }
 footer .contenedor .contenedor-informacion .acerca_de,
