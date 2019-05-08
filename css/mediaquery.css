@@ -1,0 +1,96 @@
+@media screen and (max-width:1112px) {
+  /* body .contenedor{
+    width: 90%;
+  } */
+  /* body{
+    background-color: red;
+  } */
+  body .contenedor{
+    width: 90%;
+  }
+}
+@media screen and (max-width:874px) {
+  /* body{
+    background-color:gray;
+  } */
+  header .contenedor .contenedor-header .contenedor-menu{
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  header .contenedor .contenedor-header .contenedor-menu .menu{
+    text-align: center;
+  }
+  header .contenedor .contenedor-header .contenedor-menu .menu a{
+    /* margin: 20px 10px 0px 10px; */
+    padding-top: 3px;
+  }
+  header .contenedor .contenedor-header .contenedor-menu .search{
+    padding: 10px 0px 0px 0px;
+  }
+}
+@media screen and (max-width:553px){
+  body .contenedor{
+    width: 100%;
+  }
+  header .contenedor .contenedor-header .contenedor-banner .texto .titulo{
+    font-size: 20px;
+  }
+  header .contenedor .contenedor-header .contenedor-banner .logo img{
+    width: 100px;
+    vertical-align:top;
+  }
+  /* ------- main -------*/
+  .main .contenedor .contenedor-descripcion{
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    padding: 20px 30px;
+    /* margin-bottom: 40px; */
+  }
+  .main .contenedor .contenedor-descripcion .descripcion-texto{
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .main .contenedor .contenedor-categoria .categoria{
+
+    font-size:30px;
+
+  }
+  .main .contenedor .contenedor-software .software,
+  .main .contenedor .contenedor-desarrollo_web .desarrollo_web{
+    width:100%;
+    min-width: 272px;
+    margin: 0px 0px 40px 0px;
+  }
+  .main .contenedor .contenedor-reconocimiento .reconocimiento{
+    width: 100%;
+    background-color: #EEEEEE;
+    margin-bottom: 40px;
+  }
+  /* --------footer------- */
+  footer .contenedor .contenedor-informacion{
+    /* display: flex;; */
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* background-color: #141516;
+    padding: 30px 20px 10px 20px; */
+  }
+  footer .contenedor .contenedor-informacion .acerca_de,
+  footer .contenedor .contenedor-informacion .redes_sociales,
+  footer .contenedor .contenedor-informacion .contactar{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  footer .contenedor .contenedor-informacion .acerca_de{
+    order:1;
+  }
+  footer .contenedor .contenedor-informacion .redes_sociales{
+    order: 3;
+  }
+  footer .contenedor .contenedor-informacion .contactar{
+    order: 2;
+  }
+
+}
