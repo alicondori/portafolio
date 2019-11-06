@@ -1,5 +1,11 @@
-# Portafolio
+# Portafolio1.0
 **version beta**
-portafolio de prueba
+**recursos**
 
-![captura](img/captura.png)
+* html
+* css
+* fontawesome
+
+*portafolio de prueba*
+
+![captura](img/captura.jpg)
